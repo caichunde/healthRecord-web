@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dchb.mapper.healthRecord.hmpw.QaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dchb.model.healthRecord.hmpw.Qa">
+        <id column="ID" property="id" />
+        <result column="IDCARD" property="idcard" />
+        <result column="DOCTORID" property="doctorid" />
+        <result column="AA" property="aa" />
+        <result column="AB" property="ab" />
+        <result column="AC" property="ac" />
+        <result column="AD" property="ad" />
+        <result column="AE" property="ae" />
+        <result column="AF" property="af" />
+        <result column="AG" property="ag" />
+        <result column="AH" property="ah" />
+        <result column="AI" property="ai" />
+        <result column="AJ" property="aj" />
+        <result column="AK" property="ak" />
+        <result column="AL" property="al" />
+        <result column="AM" property="am" />
+        <result column="AN" property="an" />
+        <result column="AO" property="ao" />
+        <result column="AP" property="ap" />
+        <result column="AQ" property="aq" />
+        <result column="AR" property="ar" />
+        <result column="AS" property="as" />
+        <result column="AT" property="at" />
+        <result column="AU" property="au" />
+        <result column="AV" property="av" />
+        <result column="AW" property="aw" />
+        <result column="AX" property="ax" />
+        <result column="AY" property="ay" />
+        <result column="AZ" property="az" />
+        <result column="BA" property="ba" />
+        <result column="BB" property="bb" />
+        <result column="BC" property="bc" />
+        <result column="BD" property="bd" />
+        <result column="BE" property="be" />
+        <result column="BF" property="bf" />
+        <result column="BG" property="bg" />
+        <result column="BH" property="bh" />
+        <result column="BI" property="bi" />
+        <result column="BJ" property="bj" />
+        <result column="BK" property="bk" />
+        <result column="BL" property="bl" />
+        <result column="bnextvisited" property="bnextvisited" />
+        <result column="RegionID" property="RegionID" />
+        <result column="DtCreate" property="DtCreate" />
+        <result column="DtLastModi" property="DtLastModi" />
+        <result column="EmptyNum" property="EmptyNum" />
+        <result column="EmptyFeilds" property="EmptyFeilds" />
+        <result column="bCityTran" property="bCityTran" />
+        <result column="bCanTran" property="bCanTran" />
+        <result column="ErrorMsg" property="ErrorMsg" />
+        <result column="BM" property="bm" />
+        <result column="BN" property="bn" />
+        <result column="BO" property="bo" />
+        <result column="BP" property="bp" />
+        <result column="BQ" property="bq" />
+        <result column="BR" property="br" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, IDCARD, DOCTORID, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX, AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK, BL, bnextvisited, RegionID, DtCreate, DtLastModi, EmptyNum, EmptyFeilds, bCityTran, bCanTran, ErrorMsg, BM, BN, BO, BP, BQ, BR
+    </sql>
+
+</mapper>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dchb.mapper.healthRecord.hicp.IbMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dchb.model.healthRecord.hicp.Ib">
+        <id column="ID" property="id" />
+        <result column="IDCARD" property="idcard" />
+        <result column="DOCTORID" property="doctorid" />
+        <result column="AA" property="aa" />
+        <result column="AB" property="ab" />
+        <result column="AC" property="ac" />
+        <result column="AD" property="ad" />
+        <result column="AE" property="ae" />
+        <result column="AF" property="af" />
+        <result column="AG" property="ag" />
+        <result column="AH" property="ah" />
+        <result column="AI" property="ai" />
+        <result column="AJ" property="aj" />
+        <result column="AK" property="ak" />
+        <result column="AL" property="al" />
+        <result column="AM" property="am" />
+        <result column="AN" property="an" />
+        <result column="AO" property="ao" />
+        <result column="AP" property="ap" />
+        <result column="AQ" property="aq" />
+        <result column="AR" property="ar" />
+        <result column="AS" property="as" />
+        <result column="AT" property="at" />
+        <result column="AU" property="au" />
+        <result column="AV" property="av" />
+        <result column="AW" property="aw" />
+        <result column="AX" property="ax" />
+        <result column="AV1" property="av1" />
+        <result column="AW1" property="aw1" />
+        <result column="AY" property="ay" />
+        <result column="AZ" property="az" />
+        <result column="BA" property="ba" />
+        <result column="BA1" property="ba1" />
+        <result column="BB" property="bb" />
+        <result column="BC" property="bc" />
+        <result column="BC1" property="bc1" />
+        <result column="BD" property="bd" />
+        <result column="BD1" property="bd1" />
+        <result column="BE" property="be" />
+        <result column="BE1" property="be1" />
+        <result column="BF" property="bf" />
+        <result column="BG" property="bg" />
+        <result column="BH" property="bh" />
+        <result column="BI" property="bi" />
+        <result column="BJ" property="bj" />
+        <result column="BK" property="bk" />
+        <result column="BL" property="bl" />
+        <result column="BM" property="bm" />
+        <result column="BN" property="bn" />
+        <result column="BO" property="bo" />
+        <result column="BP" property="bp" />
+        <result column="BQ" property="bq" />
+        <result column="BR" property="br" />
+        <result column="BS" property="bs" />
+        <result column="BT" property="bt" />
+        <result column="BU" property="bu" />
+        <result column="NextTime" property="NextTime" />
+        <result column="RegionID" property="RegionID" />
+        <result column="Dtcreate" property="Dtcreate" />
+        <result column="DtlastModi" property="DtlastModi" />
+        <result column="EmptyNum" property="EmptyNum" />
+        <result column="EmptyFeilds" property="EmptyFeilds" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, IDCARD, DOCTORID, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX, AV1, AW1, AY, AZ, BA, BA1, BB, BC, BC1, BD, BD1, BE, BE1, BF, BG, BH, BI, BJ, BK, BL, BM, BN, BO, BP, BQ, BR, BS, BT, BU, NextTime, RegionID, Dtcreate, DtlastModi, EmptyNum, EmptyFeilds
+    </sql>
+
+</mapper>

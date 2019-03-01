@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dchb.mapper.user.EmrUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dchb.model.user.EmrUser">
+        <id column="YHID" property="yhid" />
+        <result column="XM" property="xm" />
+        <result column="SFZHM" property="sfzhm" />
+        <result column="SJHM" property="sjhm" />
+        <result column="PWD" property="pwd" />
+        <result column="JBSJ" property="jbsj" />
+        <result column="BZ" property="bz" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        YHID, XM, SFZHM, SJHM, PWD, JBSJ, BZ
+    </sql>
+
+</mapper>
